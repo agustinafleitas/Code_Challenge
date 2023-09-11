@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: linear-gradient(red, orange);
+}
+
+#formulario{
+ display: flex;
+ flex-direction: column;
+ background-color: azure;
+ text-align: center;
+ padding: 50px 30px;
+}
+
+
+#btn{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+
+form input:not(#btn){
+    font-size: 20px;
+    outline: none;
+    border: solid 2px orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+form input{
+    margin-bottom: 35px;
+}
+
+form input::placeholder{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 89, 0, 0.445);
+    font-weight: bold;
+}
